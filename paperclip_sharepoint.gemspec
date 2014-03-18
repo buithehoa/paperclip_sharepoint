@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = PaperclipSharepoint::VERSION
   spec.authors       = ["Bui The Hoa"]
   spec.email         = ["buithehoa@gmail.com"]
-  spec.description   = %q{TODO: Write a gem description}
-  spec.summary       = %q{TODO: Write a gem summary}
+  spec.description   = %q{A paperclip storage which supports uploading files to SharePoint}
+  spec.summary       = %q{}
   spec.homepage      = ""
   spec.license       = "MIT"
 
