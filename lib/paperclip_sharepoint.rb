@@ -1,5 +1,3 @@
-require "paperclip_sharepoint/version"
+require "paperclip"
+require "paperclip/sharepoint"
 
-module PaperclipSharepoint
-  # Your code goes here...
-end

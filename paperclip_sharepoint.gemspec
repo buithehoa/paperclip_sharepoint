@@ -1,11 +1,10 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'paperclip_sharepoint/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "paperclip_sharepoint"
-  spec.version       = PaperclipSharepoint::VERSION
+  spec.version       = "0.0.1"
   spec.authors       = ["Bui The Hoa"]
   spec.email         = ["buithehoa@gmail.com"]
   spec.description   = %q{A paperclip storage which supports uploading files to SharePoint}
@@ -21,3 +20,4 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "bundler", "~> 1.3"
   spec.add_development_dependency "rake"
 end
+
